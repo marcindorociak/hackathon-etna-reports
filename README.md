@@ -4,7 +4,7 @@ A simple alternative for Crystal Reports written in TypeScript.
 
 ## Installation
 
-Steps to print pdf report:
+Steps needed to set up a dev environment:
 
 ```bash
 git clone https://github.com/marcindorociak/hackathon-etna-reports.git
@@ -18,7 +18,7 @@ To see how it works, please open in the web browser address [http://localhost:30
 
 ## How to print sample report?
 
-Open address [http://localhost:3000](http://localhost:3000) and choose one thing from the left menu. Now you can click the print button and report should generate.
+Open address [http://localhost:3000](http://localhost:3000) and choose one entry from the left menu. Now you can click the print button and report should generate.
 
 ## What existing code do?
 
@@ -31,8 +31,8 @@ Open address [http://localhost:3000](http://localhost:3000) and choose one thing
 ### Backend
 
 * On the backend side, we are generating a PDF report using typescript.
-* Code for generating PDF report is extracted from the beta version of ETNA look like typescript code. At this point, I would like to thank Laky Bence for sending me this ETNA sample code.
-* To generate a PDF report, we are using a pdfkit library.
+* Code for generating PDF report is extracted from the beta version of ETNA typescript code. At this point, I would like to thank Laky Bence for sending me this ETNA sample code.
+* To generate a PDF report, we are using a `pdfkit` library.
 
 ## What is the aim of the hackathon?
 
