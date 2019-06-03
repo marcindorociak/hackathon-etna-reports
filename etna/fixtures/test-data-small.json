@@ -1,0 +1,68 @@
+[
+    {
+        "number": 35279,
+        "dueDate": "2019/04/12",
+        "totalSaleExcTax": 1210.59,
+        "currency": {
+            "id": "GBP",
+            "code": "GBP",
+            "name": "pounds",
+            "symbol": "£"
+        },
+        "priceLines": [
+            {
+                "description": "tempor anim",
+                "quantity": 19,
+                "itemPrice": 4.11,
+                "lineTotal": 78.09
+            },
+            {
+                "description": "Lorem sunt",
+                "quantity": 3,
+                "itemPrice": 5.11,
+                "lineTotal": 15.330000000000002
+            },
+            {
+                "description": "ut sit",
+                "quantity": 23,
+                "itemPrice": 7.08,
+                "lineTotal": 162.84
+            },
+            {
+                "description": "deserunt occaecat",
+                "quantity": 5,
+                "itemPrice": 4,
+                "lineTotal": 20
+            },
+            {
+                "description": "et cillum",
+                "quantity": 25,
+                "itemPrice": 9.35,
+                "lineTotal": 233.75
+            },
+            {
+                "description": "minim consequat",
+                "quantity": 21,
+                "itemPrice": 4.05,
+                "lineTotal": 85.05
+            },
+            {
+                "description": "elit excepteur",
+                "quantity": 22,
+                "itemPrice": 8.8,
+                "lineTotal": 193.60000000000002
+            }
+        ],
+        "billToCustomer": {
+            "name": "Shopabout",
+            "contactPerson": {
+                "firstname": "Stephens",
+                "surname": "Wallace"
+            }
+        },
+        "paymentMethod": {
+            "id": "TRANSFER",
+            "description": "Wire transfer"
+        }
+    }
+]

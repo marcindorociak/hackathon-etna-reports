@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.1 (55044) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13,9.75735931 L13,24 L11,24 L11,9.89949494 L6.41421356,14.4852814 L5,13.0710678 L12.0710678,6 L13.4852814,7.41421356 L19.1421356,13.0710678 L17.7279221,14.4852814 L13,9.75735931 Z M5,3 L19,3 L19,5 L5,5 L5,3 Z" id="path-1"></path>
+    </defs>
+    <g id="Arrow3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#004089" transform="translate(12.071068, 13.500000) scale(1, -1) translate(-12.071068, -13.500000) " xlink:href="#path-1"></use>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-calendar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Date" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
+        <g id="Date-no-date" transform="translate(-159.000000, -41.000000)" fill="#FFFFFF">
+            <g id="icon-calendar" transform="translate(159.000000, 41.000000)">
+                <g id="Combined-Shape">
+                    <path d="M0,2.00748397 C0,1.45106594 0.442660332,1 0.998956561,1 L3,1 L3,2.49531555 C3,2.77404508 3.2157526,3 3.49538898,3 L5.50461102,3 C5.7782068,3 6,2.78596497 6,2.49531555 L6,1 L10,1 L10,2.49531555 C10,2.77404508 10.2157526,3 10.495389,3 L12.504611,3 C12.7782068,3 13,2.78596497 13,2.49531555 L13,1 L15.0010434,1 C15.5527519,1 16,1.44892021 16,2.00748397 L16,14.992516 C16,15.5489341 15.5553691,16 14.9991283,16 L1.00087166,16 C0.448105505,16 0,15.5510798 0,14.992516 L0,2.00748397 Z M1,15 L15,15 L15,5 L1,5 L1,15 Z M4,0 L5,0 L5,2 L4,2 L4,0 Z M11,0 L12,0 L12,2 L11,2 L11,0 Z M3,7 L5,7 L5,9 L3,9 L3,7 Z M3,11 L5,11 L5,13 L3,13 L3,11 Z M7,7 L9,7 L9,9 L7,9 L7,7 Z M7,11 L9,11 L9,13 L7,13 L7,11 Z M11,7 L13,7 L13,9 L11,9 L11,7 Z M11,11 L13,11 L13,13 L11,13 L11,11 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

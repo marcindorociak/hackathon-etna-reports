@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.1 (55044) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/unpin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.6893398,9.68933983 L9.68933983,12.6893398 L6.29289322,9.29289322 L4.29289322,9.29289322 L9.29289322,4.29289322 L9.29289322,6.29289322 L12.6893398,9.68933983 Z M14.0191707,12.6021496 C14.6435743,13.2361287 18.3541624,17.0579658 20.2928932,20.2891838 C17.0616752,18.350453 13.2398382,14.6398649 12.605859,14.0154613 L14.0191707,12.6021496 Z M5.28248558,18.5104076 L18.0104076,5.78248558 L18.7175144,6.48959236 L5.98959236,19.2175144 L5.28248558,18.5104076 Z" id="path-1"></path>
+    </defs>
+    <g id="icon/unpin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#A40769" xlink:href="#path-1"></use>
+    </g>
+</svg>

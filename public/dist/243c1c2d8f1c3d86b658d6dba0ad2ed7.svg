@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/crud/save 16x16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1,2.49824524 C1,1.67078724 1.67710876,1 2.49531555,1 L3,1 L3,5.50632493 C3,5.78144204 3.22765279,6.00446851 3.50964952,6.00446851 L12.4903505,6.00446851 C12.7718221,6.00446851 13,5.78943276 13,5.50632493 L13,1 L15,3 L15,13.5044548 C15,14.3304216 14.3228912,15 13.5046844,15 L13,15 L13,11.4904785 C13,11.2195947 12.7723472,11 12.4903505,11 L3.50964952,11 C3.22817786,11 3,11.2150574 3,11.4904785 L3,15 L2.49531555,15 C1.66947558,15 1,14.3247509 1,13.5017548 L1,2.49824524 Z M4,1 L12,1 L12,5 L4,5 L4,1 Z M9,2 L9,4 L11,4 L11,2 L9,2 Z M4,12 L12,12 L12,13 L4,13 L4,12 Z M4,14 L12,14 L12,15 L4,15 L4,14 Z" id="path-1"></path>
+    </defs>
+    <g id="icon/crud/save-16x16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+    </g>
+</svg>

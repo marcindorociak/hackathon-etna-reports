@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es2015",
+        "lib": [
+            "es2017",
+            "esnext.asynciterable",
+            "dom"
+        ],
+        "sourceMap": true,
+        "declaration": false,
+        "noUnusedLocals": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "experimentalDecorators": true,
+        "stripInternal": true,
+        "watch": false,
+        "outDir": "build",
+        "rootDir": ".",
+        "baseUrl": ".",
+        "strictNullChecks": false,
+        "resolveJsonModule": true,
+    },
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
+}

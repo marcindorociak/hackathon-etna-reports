@@ -1,0 +1,75 @@
+{
+    "fontFamily": "sans-serif",
+    "fontColor": "#668592",
+    "title": {
+        "type": "TEXT",
+        "content": "Your Invoice ({{number}}) is ready!"
+    },
+    "chapters": [{
+            "title": {
+                "type": "TEXT",
+                "content": "Hey {{billToCustomer.contactPerson.firstname}}!"
+            },
+            "paragraphs": [{
+                "documentElements": [{
+                    "type": "TEXT",
+                    "displayInline": false,
+                    "content": "Thank you for your recent purchase of {{totalSaleExcTax}} {{currency.symbol}}! Please find a details below:"
+                }]
+            }, {
+                "title": {
+                    "type": "TEXT",
+                    "content": "Items"
+                },
+                "documentElements": [{
+                        "type": "TABLE",
+                        "bind": "priceLines",
+                        "columns": [{
+                                "cellContentWithHandlebarsRelativeToBind": {
+                                    "type": "TEXT",
+                                    "content": " - {{description}}"
+                                },
+                                "headerContent": {
+                                    "type": "TEXT",
+                                    "content": "Description"
+                                }
+                            },
+                            {
+                                "cellContentWithHandlebarsRelativeToBind": {
+                                    "type": "TEXT",
+                                    "content": "{{itemPrice}}"
+                                },
+                                "headerContent": {
+                                    "type": "TEXT",
+                                    "content": "Item Price"
+                                }
+                            },
+                            {
+                                "cellContentWithHandlebarsRelativeToBind": {
+                                    "type": "TEXT",
+                                    "content": "{{quantity}}"
+                                },
+                                "headerContent": {
+                                    "type": "TEXT",
+                                    "content": "Quantity"
+                                }
+                            },
+                            {
+                                "cellContentWithHandlebarsRelativeToBind": {
+                                    "type": "TEXT",
+                                    "content": "{{lineTotal}}"
+                                },
+                                "headerContent": {
+                                    "type": "TEXT",
+                                    "content": "Line Total"
+                                }
+                            }
+                        ]
+                    }
+
+                ]
+            }]
+        }
+
+    ]
+}

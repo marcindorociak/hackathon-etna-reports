@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.1 (55044) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13,6.75735931 L13,21 L11,21 L11,6.89949494 L6.41421356,11.4852814 L5,10.0710678 L12.0710678,3 L13.4852814,4.41421356 L19.1421356,10.0710678 L17.7279221,11.4852814 L13,6.75735931 Z" id="path-1"></path>
+    </defs>
+    <g id="Arrow-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#004089" transform="translate(12.071068, 12.000000) scale(1, -1) translate(-12.071068, -12.000000) " xlink:href="#path-1"></use>
+    </g>
+</svg>
