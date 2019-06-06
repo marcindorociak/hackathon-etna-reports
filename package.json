@@ -51,6 +51,7 @@
     "webpack-hot-middleware": "^2.25.0"
   },
   "dependencies": {
+    "@types/jsreport-core": "^1.5.1",
     "@types/react": "^16.8.18",
     "@types/react-dom": "^16.8.4",
     "apollo-cache-inmemory": "^1.6.0",
@@ -80,6 +81,7 @@
     "ts-loader": "^6.0.1",
     "ts-node-dev": "^1.0.0-pre.39",
     "typescript": "^3.5.1",
-    "webpack": "^4.32.0"
+    "webpack": "^4.32.0",
+    "xmlhttprequest-ts": "^1.0.1"
   }
 }

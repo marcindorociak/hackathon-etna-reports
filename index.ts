@@ -36,12 +36,12 @@ app.get('/', function(req, res){
 });
 
 // create our router
-var router = express.Router();
+let router = express.Router();
 router.route('/cors_headers_hack').post(function(req, res) {
-  var options = {
+  let options = {
   uri: 'https://apidemo.sagex3.com/demo/service/X3CLOUDV2_SEED/graphql/',
   method: 'POST',
-  json: req.body
+  json: req.body,
 };
   request(options, (error, response, body) => {
   if (error) {
@@ -60,13 +60,20 @@ router.route('/generate-pdf').post(function(req, res) {
        'Access-Control-Allow-Origin': '*',
        'Content-Disposition': 'attachment; filename=Untitled.pdf'
    });
+
    async function wrapper() {
-    let pdfResult = await etna.runTest(req.body);
+    const pdfResult = await etna.runTest(req.body);
     return pdfResult;
    }
-   wrapper().then((pdfResult) => {
-     pdfResult[0].pipe(res);
-     pdfResult[0].end();
+   wrapper().then(pdfResult => {
+    //  console.log(res);
+    //  console.log(pdfResult);
+    res.body = pdfResult[0];
+    res.end();
+
+    //  pdfResult.pipe(res);
+    //  pdfResult.end();
+     console.log(...pdfResult);
    });
 
 });
