@@ -67,13 +67,7 @@ router.route('/generate-pdf').post(function(req, res) {
    }
    wrapper().then(pdfResult => {
     //  console.log(res);
-    //  console.log(pdfResult);
-    res.body = pdfResult[0];
-    res.end();
-
-    //  pdfResult.pipe(res);
-    //  pdfResult.end();
-     console.log(...pdfResult);
+    res.end(pdfResult[0]);
    });
 
 });
