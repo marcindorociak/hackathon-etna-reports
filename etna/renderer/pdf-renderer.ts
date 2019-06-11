@@ -13,15 +13,18 @@ export class PdfRenderer extends DocumentRenderer {
     }
     async generate(data: object): Promise<NodeJS.ReadableStream> {
             const data2 = {
-                template: { content:"<h1>sample content</h1>", recipe:"chrome-pdf",
-                            engine:"jsrender"}
+                template: { shortid : "rkJTnK2ce", recipe:"chrome-pdf",
+                            engine:"jsrender"},
+                data : {},
             };
 
             let config = {
-                headers: { 'Content-Type': 'application/json' },
+                headers: { 'Content-Type': 'application/json', 'accept-charset': 'utf-8' },
+                encoding: null,
+                json: true,
             };
 
             const res = await axios.post('http://localhost:5488/api/report', data2, config)
-            return res.data;
+            return await res.data;
     }
 }
