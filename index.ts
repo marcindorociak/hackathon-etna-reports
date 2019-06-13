@@ -9,7 +9,7 @@ const webpackDevMid = require('webpack-dev-middleware'); //webpack hot reloading
 const webpackConfig = require('./webpack.config.js');
 const compiler = webpack(webpackConfig);
 const webpackHotMid = require("webpack-hot-middleware");
-const etna = require('./etna/index.ts');
+const etna = require('./etna/index');
 
 app.use(webpackDevMid(compiler, {
   noInfo: true,
@@ -36,12 +36,12 @@ app.get('/', function(req, res){
 });
 
 // create our router
-var router = express.Router();
+let router = express.Router();
 router.route('/cors_headers_hack').post(function(req, res) {
-  var options = {
+  let options = {
   uri: 'https://apidemo.sagex3.com/demo/service/X3CLOUDV2_SEED/graphql/',
   method: 'POST',
-  json: req.body
+  json: req.body,
 };
   request(options, (error, response, body) => {
   if (error) {
@@ -58,15 +58,16 @@ router.route('/generate-pdf').post(function(req, res) {
    res.writeHead(200, {
        'Content-Type': 'application/pdf',
        'Access-Control-Allow-Origin': '*',
-       'Content-Disposition': 'attachment; filename=Untitled.pdf'
+       'Content-Disposition': 'inline;filename=invoice-main.pdf'
    });
+
    async function wrapper() {
-    let pdfResult = await etna.runTest(req.body);
+    const pdfResult = await etna.runTest(req.body);
     return pdfResult;
    }
-   wrapper().then((pdfResult) => {
-     pdfResult[0].pipe(res);
-     pdfResult[0].end();
+   wrapper().then(pdfResult => {
+    //  console.log(res);
+    res.end(pdfResult[0]);
    });
 
 });
