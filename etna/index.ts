@@ -4,10 +4,9 @@ import { install } from 'source-map-support';
 import { DocumentArtefact, TargetFormat } from './document-model';
 //import invoices = require('./fixtures/test-data-small.json');
 import { getRenderer } from './renderer';
-import { invoiceTemplate } from './fixtures/invoiceTemplate';
+import invoiceTemplate from "./fixtures/invoice";
 
 install();
-
 /**
  * Generates a single document
  * @param document
@@ -61,6 +60,7 @@ export const runTest = async (dataInvoices: object) => {
     //const documentType = process.argv[2];
     const documentType = 'PDF';
     const startTime = new Date().getTime();
+    // const results = await generateBatch(invoiceTemplate, documentType, dataInvoices);
     const results = await generateBatch(invoiceTemplate, documentType, dataInvoices);
 
     // Comment the following line out to save the documents to the disk:

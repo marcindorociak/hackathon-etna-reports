@@ -16,7 +16,7 @@
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
-    "@types/express": "^4.16.1",
+    "@types/express": "github:types/npm-express",
     "@types/js-beautify": "^1.8.1",
     "@types/lodash": "^4.14.133",
     "@types/pdfkit": "^0.7.36",

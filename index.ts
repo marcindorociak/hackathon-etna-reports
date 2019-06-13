@@ -9,7 +9,7 @@ const webpackDevMid = require('webpack-dev-middleware'); //webpack hot reloading
 const webpackConfig = require('./webpack.config.js');
 const compiler = webpack(webpackConfig);
 const webpackHotMid = require("webpack-hot-middleware");
-const etna = require('./etna/index.ts');
+const etna = require('./etna/index');
 
 app.use(webpackDevMid(compiler, {
   noInfo: true,
@@ -58,7 +58,7 @@ router.route('/generate-pdf').post(function(req, res) {
    res.writeHead(200, {
        'Content-Type': 'application/pdf',
        'Access-Control-Allow-Origin': '*',
-       'Content-Disposition': 'attachment; filename=Untitled.pdf'
+       'Content-Disposition': 'inline;filename=invoice-main.pdf'
    });
 
    async function wrapper() {
